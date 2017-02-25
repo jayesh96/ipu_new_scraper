@@ -1,6 +1,6 @@
-from bs4 import BeautifulSoup as bs # To parse the html page
-import subprocess # To run a command to download pdf.
-import requests # To Download the Html page of GGSIPU Results
+from bs4 import BeautifulSoup as bs 
+import subprocess 
+import requests 
 import webbrowser
 
 
