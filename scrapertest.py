@@ -34,6 +34,7 @@ try:
                     print('Starting Automatic Download , Please wait while Download finishes.')
                     command = ['wget', fetch_url]
                     output = subprocess.call(command)
+		    print('Download Complete')		
                     break
 except:
     print "Not found"
